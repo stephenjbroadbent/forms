@@ -1,0 +1,60 @@
+.materialform {
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+
+.information_box {
+    border-radius: 12px;
+    border: solid 1px grey;
+    padding: 30px;
+}
+
+.container {
+    width: 30%;
+    padding: 50px;
+}
+
+::placeholder {
+    color: blue;
+    opacity: 0.8;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: solid 1px grey;
+    background-color: rgba(200, 200, 200, 0.2);
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#county_label {
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+#postcode_label {
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+button {
+    prop: value;
+    border: solid 1px white;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    float: right;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor:pointer;
+}
